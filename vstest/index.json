@@ -1,0 +1,25 @@
+{
+  "title": "VS Test",
+  "description": "test vs code IDE",
+  "difficulty": "Beginner",
+  "time": "10 min",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      }
+   ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "hideintro": true,
+    "showide": true,
+    "uilayout": "vscode-terminal-split"
+  },
+  "backend": {
+    "imageid": "intersystems-vscodeenv"
+  }
+}
