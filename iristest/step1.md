@@ -1,6 +1,4 @@
 
-## 2nd level title
+## Exiting the IRIS Terminal
 
-Here is some step 1 text.
-
-Allow a code block to be executed `ls -ltr`{{execute}}
+When your session is complete, you can exit the shell via the `h`{{execute}} or `halt` command.
