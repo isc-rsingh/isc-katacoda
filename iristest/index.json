@@ -1,0 +1,25 @@
+{
+  "title": "IRIS Test",
+  "description": "test IRIS Shell",
+  "difficulty": "Beginner",
+  "time": "10 min",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      }
+   ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "hideintro": true,
+    "showide": true,
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "intersystems-iris"
+  }
+}
