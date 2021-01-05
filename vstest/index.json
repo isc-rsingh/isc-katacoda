@@ -17,7 +17,7 @@
   "environment": {
     "hideintro": true,
     "showide": true,
-    "uilayout": "vscode-terminal-split"
+    "uilayout": "editor-terminal"
   },
   "backend": {
     "imageid": "intersystems-vscodeenv"
