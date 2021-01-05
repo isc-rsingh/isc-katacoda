@@ -16,7 +16,8 @@
   },
   "environment": {
     "hideintro": true,
-    "uilayout": "editor-terminal"
+    "showide": true,
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "intersystems-vscodeenv"
