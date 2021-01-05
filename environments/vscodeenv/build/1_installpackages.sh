@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Get-Service ssh-agent | Set-Service -StartupType Automatic -PassThru | Start-Service
+
 cd /tmp && apt install bsdtar -y
 
 curl -L https://marketplace.visualstudio.com/_apis/public/gallery/publishers/intersystems-community/vsextensions/vscode-objectscript/1.0.6/vspackage | bsdtar -xvf - extension
