@@ -1,24 +1,29 @@
 {
+  "noindex": true,
   "title": "IRIS Test",
-  "description": "test IRIS Shell",
+  "description": "IRIS Session Basics",
   "difficulty": "Beginner",
   "time": "10 min",
   "details": {
-    "steps": [
-      {
-        "title": "Step 1",
-        "courseData": "step1-background.sh",
-        "code": "step1-foreground.sh",
-        "text": "step1.md"
+      "intro": {
+          "courseData": "background.sh",
+          "code": "foreground.sh",
+          "text": "intro.md"
+      },
+      "steps": [
+          {
+              "title": "Step 1",
+              "text": "step1.md"
+          }
+      ],
+      "assets": {
+          "host01": [
+              {"file": "wait.sh", "target": "/usr/local/bin/", "chmod": "+x"}
+          ]
       }
-   ],
-    "finish": {
-      "text": "finish.md"
-    }
   },
+  "files": [],
   "environment": {
-    "hideintro": true,
-    "showide": true,
     "uilayout": "terminal"
   },
   "backend": {
