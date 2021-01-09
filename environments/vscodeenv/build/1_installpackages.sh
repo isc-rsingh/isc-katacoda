@@ -5,9 +5,9 @@
 # cd /tmp && apt install bsdtar -y
 apt install bsdtar -y
 
-curl -L https://marketplace.visualstudio.com/_apis/public/gallery/publishers/intersystems-community/vsextensions/vscode-objectscript/1.0.6/vspackage | bsdtar -xvf - intersystems-community.vscode-objectscript-1.0.6
+curl -L https://marketplace.visualstudio.com/_apis/public/gallery/publishers/intersystems-community/vsextensions/vscode-objectscript/1.0.6/vspackage | bsdtar -xvf - extension
 
-mv intersystems-community.vscode-objectscript-1.0.6 /opt/.katacodacode/extensions/
+mv extension /opt/.katacodacode/extensions/intersystems-community.vscode-objectscript-1.0.6
 
 mkdir -p /opt/.katacodacode/user-data/User/
 cat << VSCODEEOF > /opt/.katacodacode/user-data/User/settings.json
