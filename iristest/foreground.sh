@@ -1,8 +1,6 @@
 /opt/configure-environment.sh
 
-until [ "`/usr/bin/docker inspect -f {{.State.Running}} iris`"=="true" ]; do
-    sleep 0.1;
-done;
-sleep 2
+# TODO: Work out a way to poll untl IRIS is really running
+sleep 6
 
 docker exec -it iris iris session iris
