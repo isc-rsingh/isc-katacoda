@@ -1,5 +1,5 @@
 #!/bin/bash
 
 echo "background script run"
-docker ps
+/opt/configure-environment.sh
 echo "background script done"
