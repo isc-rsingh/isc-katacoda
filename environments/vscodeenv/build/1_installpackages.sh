@@ -16,6 +16,14 @@ mv extension /opt/.katacodacode/extensions/intersystems.language-server-1.0.6
 mkdir -p /opt/.katacodacode/user-data/User/
 cat << VSCODEEOF > /opt/.katacodacode/user-data/User/settings.json
 { 
+  "objectscript.conn": {
+    "active": true,
+    "host": "52773b-87832689.labs.learning.intersystems.com",
+    "port": 80,
+    "username": "tech",
+    "ns": "USER",
+    "https": true, 
+  },
   "workbench.startupEditor": "none", 
   "files.autoSave": "on",
   "editor.minimap.enabled": false,
