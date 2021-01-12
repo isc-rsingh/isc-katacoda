@@ -22,13 +22,12 @@ cat << VSCODEEOF > /opt/.katacodacode/user-data/User/settings.json
     "active": true,
     "host": "localhost",
     "port": 52773,
-    "username": "SYSTEM",
-    "password": "_SYS",
+    "username": "_SYSTEM",
+    "password": "SYS",
     "ns": "USER",
-    "https": true
+    "https": false
   },
   "workbench.startupEditor": "none", 
-  "files.autoSave": "on",
   "editor.minimap.enabled": false,
   "window.autoDetectColorScheme": false,
   "workbench.colorCustomizations": {},
